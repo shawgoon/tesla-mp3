@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.player{
+    width: 30em;
+    height: 50em;
+    background-color: rgb(99, 119, 230);
+    margin: 02em auto;
+    padding: 0.5em 0;
+    border-radius: 3em;
+}
+.slider{
+    width: 18em;
+    height: 18em;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+}
+.slider img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* section title */
+
+.title{
+    width: 80%;
+    height: 4em;
+    background-color: #fff;
+    margin: 1em auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* section playground */
+
+.nav{
+    width: 90%;
+    height: 8em;
+    background-color: aqua;
+    margin: 1em auto;
+    border-radius: 2em;
+    display: flex;
+}
+.button{
+    width: 7em;
+    height: 7em;
+    margin: auto;
+    display: flex;
+    border-radius: 50%;
+}
+.button:hover,
+.buttonVol:hover{
+    cursor: pointer;
+}
+.button img{
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    
+}
+.time{
+    width: 80%;
+    height: 4em;
+    background-color: #fff;
+    margin: 1em auto;
+    border-radius: 50%;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* info track */
+
+.info{
+    width: 90%;
+    height: 4em;
+    background-color: rgb(219, 174, 245);
+    margin: 1em auto;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section volume */
+
+.navVolume{
+    width: 90%;
+    height: 4em;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2em;
+    margin: 1em auto;
+    border-radius: 2em;
+}
+.buttonVol{
+    width: 3.5em;
+    height: 3.5em;
+}
+.buttonVol img{
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+}
+.volBar{
+    width: 65%;
+    height: 1em;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 0.5em;
+}
+
